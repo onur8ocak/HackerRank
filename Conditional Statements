@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    int sayi;
+    cin>>sayi;
+    if(sayi>9)
+    cout<<"Greater than 9";
+    else if(sayi>8)
+    cout<<"nine";
+    else if(sayi>7)
+    cout<<"eight";
+    else if(sayi>6)
+    cout<<"seven";
+    else if(sayi>5)
+    cout<<"six";
+    else if(sayi>4)
+    cout<<"five";
+    else if(sayi>3)
+    cout<<"four";
+    else if(sayi>2)
+    cout<<"three";
+    else if(sayi>1)
+    cout<<"two";
+    else
+    cout<<"one";
+    
+    return 0;
+}
